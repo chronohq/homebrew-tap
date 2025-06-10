@@ -1,9 +1,9 @@
 class Puff < Formula
   desc "CLI tool for generating random values in various formats"
   homepage "https://github.com/chronohq/puff"
-  url "https://github.com/chronohq/puff/releases/download/v0.5.0/puff-0.5.0-darwin-arm64.tar.gz"
-  version "0.5.0"
-  sha256 "5e35c1eb727a212e8a64bb9ec0d18a1d03aae42ae011dab7f92c57ef74196450"
+  url "https://github.com/chronohq/puff/releases/download/v0.5.1/puff-0.5.1-darwin-arm64.tar.gz"
+  version "0.5.1"
+  sha256 "9e658db22266d91764c851089585b3789544af0ff5872b7f846ff3c8ec7e66d7"
 
   def install
     bin.install "puff"
